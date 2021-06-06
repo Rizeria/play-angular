@@ -1,0 +1,6 @@
+<br />
+count : {{ count$ | async}}
+<br />
+<button (click)="addJohn()">Add John</button> <button (click)="addMaria()">Add Maria</button>
+<br />
+person : {{ (person$ | async ) | json}}
